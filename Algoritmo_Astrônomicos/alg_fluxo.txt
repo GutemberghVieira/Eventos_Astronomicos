@@ -1,0 +1,32 @@
+
+Algoritmo Fluxo do Eventos astronômicos
+
+1.Criar Coleção de eventos 
+
+2.Criar uma função que percorre,formata e retorna a data e as informações completa da Coleção de eventos  
+
+3.pegar data atual do sistema
+
+4.Criar uma Função que verifica se a data atual é maior ou igual a data inicial do evento ou se menor ou igual a data final do evento
+4.1 se for retorna a data e as informações 
+4.2 se não for retornar msg = "Não tem meteoros para hoje, mas veja abaixo os próximos dois meses que irão ocorrer esses fenômenos naturais"
+ 
+5.Criar uma função que retorna os próximos meteoros que irão ocorrer nos dois meses.
+
+6.Criar função que formata a intensidade
+6.1 se for fraca a intensidade receberá 1
+6.2 se for média a intensidade receberá 2
+6.3 se for forte a intensidade receberá 3
+6.4 se for irregular a intensidade não receberá nada
+
+7.Criar função que formata Declinação e retornar o hemisfério de acordo com positivo ou negativo + ou -
+7.1Se For positivo retorna o texto "Norte"
+7.2Se For negativo retorna o texto "Sul"
+
+8.Criar função que retorna as informações sobre o meteoro
+
+9.Criar um arquivo que apresenta essas informações
+
+10.Criar uma função que imprime essas informações para o aquivo que apresenta
+
+Fim do programa

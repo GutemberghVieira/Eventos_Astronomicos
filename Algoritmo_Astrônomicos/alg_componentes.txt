@@ -1,0 +1,32 @@
+
+Arquivo de Components
+
+//1º Camada  
+1º.Apresenta informações <=> 1º.Função retorna informações <=> 1º.Dados meteoros
+______/\_______________________/\_____________/\_______/\______________________ 
+      ||               |       ||           | ||       ||    |
+      ||               |       ||           | ||       ||____|____ 
+      ||               |       ||           | ||             |  ||
+      ||               |       ||           | ||             |  ||
+      ||               |       ||           | ||             |  ||
+      \/               |       \/           | \/             |  \/
+2º.imprime             |2º.verifica se      |2ºFunção        |2ºFunção
+informações            |data atual          |Retorna         |Formata 
+                       |é maior que a       |Os Próximos     |intensidade
+                       |data inicial        |meteoros que    |  /\  
+                       |e menor que         |Vão ocorrer nos |  || 
+                       |a data final        |próximos dois   |  ||          
+                       |e retorna se tem    |meses           |  ||
+2º SubCamada           |Algum meteoro hoje  |                |  || 
+_______________________|__/\________________|________________|__\/______________
+                       |  ||                |                |3º.Função que 
+                       |  ||                |                |formata  
+                       |  ||                |                |Declinação     
+                       |  ||                |                |se + ou -
+                       |  ||                |                |se angulo for 
+                       |  \/                |                |positivo é 
+                       |3ºFunção formata    |                |Norte +
+                       |data                |                |se o angulo for
+3º Camada              |inicial/fim         |                |negativo 
+                       |                    |                |é Sul -
+_______________________|____________________|________________|__________________
